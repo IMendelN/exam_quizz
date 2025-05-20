@@ -92,7 +92,7 @@ export default function QuizApp() {
   return (
     <div className="container">
       <div className="header">
-        <img src="../public/quiz-icon.svg" alt="Logo" className="logo" />
+        <img src="/quiz-icon.svg" alt="Logo" className="logo" />
         <h1 className="title">Quiz App</h1>
       </div>
       <h2 className="subtitle">Teste seus conhecimentos</h2>
