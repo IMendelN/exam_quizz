@@ -40,8 +40,11 @@ export default function QuizApp() {
   };
 
   const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0];
+    const input = e.target;
+    const file = input.files?.[0];
     if (!file) return;
+
+    input.value = "";
 
     Papa.parse(file, {
       header: true,
@@ -57,6 +60,12 @@ export default function QuizApp() {
         setCurrentIndex(0);
       },
     });
+  };
+
+  const handleRetry = () => {
+    setSelectedAnswers(Array(questions.length).fill(""));
+    setSubmitted(false);
+    setCurrentIndex(0);
   };
 
   const handleSubmit = () => {
@@ -229,6 +238,13 @@ export default function QuizApp() {
             {questions.filter((q, i) => q.answer === selectedAnswers[i]).length}{" "}
             / {questions.length}
           </h3>
+          <Button
+            onClick={handleRetry}
+            className="button"
+            style={{ marginTop: 16 }}
+          >
+            Tentar Novamente
+          </Button>
         </motion.div>
       )}
 
