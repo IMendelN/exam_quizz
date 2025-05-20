@@ -103,11 +103,9 @@ export default function QuizApp() {
 
   const downloadExampleCSV = () => {
     const link = document.createElement("a");
-    link.href = "/public/exemplo-quiz.csv";
-    link.download = "exemplo-quiz.csv";
-    document.body.appendChild(link);
+    link.href = "/exemplo-quiz.csv"; // Caminho relativo ao public/
+    link.download = "exemplo-quiz.csv"; // Força o download com esse nome
     link.click();
-    document.body.removeChild(link);
   };
 
   return (
@@ -136,7 +134,7 @@ export default function QuizApp() {
         />
 
         {/* botão que dispara o clique do input file */}
-        <div style={{ display: 'flex', gap: '12px'}}>
+        <div style={{ display: "flex", gap: "12px" }}>
           <Button
             className="upload-button"
             variant="outline"
