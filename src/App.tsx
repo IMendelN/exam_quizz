@@ -243,7 +243,15 @@ export default function QuizApp() {
                   {attempt.questions.length}
                 </h4>
                 {attempt.questions.map((q, qIdx) => (
-                  <div key={qIdx} className="history-question">
+                  <div
+                    key={qIdx}
+                    className={`history-question ${
+                      attempt.answers[qIdx]?.toUpperCase() ===
+                      q.answer.toUpperCase()
+                        ? "correct"
+                        : "wrong"
+                    }`}
+                  >
                     <p>
                       {qIdx + 1}. {q.question}
                     </p>

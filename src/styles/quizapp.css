@@ -284,6 +284,20 @@ body {
   margin-bottom: 10px;
 }
 
+.history-question.wrong {
+  background-color: #ffe5e5; /* vermelho claro */
+  border-left: 4px solid red;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.history-question.correct {
+  background-color: #d1fae5; /* verde claro */
+  border-left: 4px solid green;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
 .history-question p {
   margin: 4px 0;
 }
