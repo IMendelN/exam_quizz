@@ -123,7 +123,7 @@ export default function QuizApp() {
           htmlFor="file-upload"
           className="block mb-2 font-semibold text-gray-700"
         >
-          Upload Question CSV File
+          Carregue um arquivo CSV
         </label>
 
         {/* input file escondido */}
@@ -136,7 +136,7 @@ export default function QuizApp() {
         />
 
         {/* botão que dispara o clique do input file */}
-        <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
+        <div style={{ display: 'flex', gap: '12px'}}>
           <Button
             className="upload-button"
             variant="outline"
