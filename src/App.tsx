@@ -49,11 +49,13 @@ export default function QuizApp() {
     Papa.parse(file, {
       header: true,
       complete: (results) => {
-        const parsedQuestions = (results.data as CsvRow[]).map((row) => ({
-          question: row.question,
-          options: [row.optionA, row.optionB, row.optionC, row.optionD],
-          answer: row.answer,
-        }));
+        const parsedQuestions = (results.data as CsvRow[])
+          .filter((row) => row.question && row.question.trim() !== "")
+          .map((row) => ({
+            question: row.question,
+            options: [row.optionA, row.optionB, row.optionC, row.optionD],
+            answer: row.answer,
+          }));
         setQuestions(parsedQuestions);
         setSelectedAnswers(Array(parsedQuestions.length).fill(""));
         setSubmitted(false);
