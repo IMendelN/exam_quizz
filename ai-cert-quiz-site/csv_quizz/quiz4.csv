@@ -1,0 +1,31 @@
+question,optionA,optionB,optionC,optionD,answer
+O que é NLP?,Processamento de Linguagem Natural,Neural Language Programming,Network Learning Process,Natural Learning Process,A
+Qual é a função do tokenizador em NLP?,Dividir texto em tokens,Gerar texto,Classificar texto,Traduzir texto,A
+O que é Word2Vec?,Modelo para representar palavras em vetores,Modelo de classificação,Algoritmo de clustering,Função de ativação,A
+Qual é um exemplo de modelo Transformer?,BERT,ResNet,VGG,K-Means,A
+Qual é a função do mecanismo de atenção?,Focar em palavras relevantes,Normalizar dados,Aumentar dados,Classificar texto,A
+Qual é uma tarefa comum de NLP?,Análise de sentimentos,Classificação de imagens,Reconhecimento facial,Previsão do tempo,A
+O que é stemming?,Reduzir palavras à raiz,Traduzir palavras,Classificar palavras,Gerar palavras,A
+Qual é uma técnica para geração de texto?,Modelos baseados em Transformer,Rede convolucional,K-Means,Random Forest,A
+O que é POS tagging?,Classificação gramatical de palavras,Reconhecimento de fala,Segmentação de texto,Tradução automática,A
+Qual é o papel do corpus?,Base de dados textual,Modelo neural,Função de ativação,Algoritmo de clustering,A
+O que é embeddings?,Representação vetorial de palavras,Modelo supervisionado,Função de ativação,Algoritmo de clustering,A
+Qual é a diferença entre NLP e NLU?,NLU é entendimento, NLP é processamento,NLP é entendimento, NLU é processamento,Ambos são iguais,Nenhuma,A
+O que é uma rede neural recorrente?,Rede para dados sequenciais,Rede para imagens,Rede para classificação,Rede para regressão,A
+Qual é a tarefa do named entity recognition?,Identificar entidades nomeadas,Traduzir texto,Classificar sentimentos,Gerar texto,A
+O que é transformer?,Arquitetura baseada em atenção,Rede convolucional,Algoritmo de clustering,Função de ativação,A
+Qual é o papel do pre-training?,Treinar modelo em dados grandes,Ajustar hiperparâmetros,Testar modelo,Validar modelo,A
+Qual é o que é fine-tuning?,Ajustar modelo pré-treinado para nova tarefa,Treinar do zero,Validar modelo,Testar modelo,A
+O que é zero-shot learning?,Classificar sem dados de treino,Ajustar hiperparâmetros,Treinar do zero,Validar modelo,A
+Qual é o papel do embedding em NLP?,Representar palavras como vetores,Classificar texto,Gerar texto,Traduzir texto,A
+Qual é a função do softmax em NLP?,Converter logits em probabilidades,Normalizar texto,Traduzir texto,Classificar texto,A
+O que é perplexidade em modelos de linguagem?,Métrica para avaliar modelos,Métrica de classificação,Métrica de regressão,Métrica de clustering,A
+Qual é um exemplo de dataset para NLP?,GLUE,MNIST,ImageNet,CIFAR,A
+O que é o objetivo do masked language model?,Prever palavras ocultas,Treinar do zero,Testar modelo,Validar modelo,A
+Qual é o que é token?,Unidade básica de texto,Modelo neural,Função de ativação,Algoritmo de clustering,A
+O que é o Transformer decoder?,Parte do Transformer que gera saída,Parte que processa entrada,Camada de pooling,Camada de convolução,A
+Qual é a função da camada de embedding?,Converter palavras em vetores,Criar imagens,Classificar texto,Traduzir texto,A
+O que é self-attention?,Mecanismo para focar partes do input,Mecanismo para normalizar dados,Aumentar dados,Dividir dados,A
+Qual é a função do optimizer Adam?,Otimizar pesos do modelo,Normalizar dados,Aumentar dados,Classificar texto,A
+Qual é a diferença entre LSTM e GRU?,GRU é simplificado,LSTM é mais simples,Ambos iguais,Nenhuma,A
+Qual é uma aplicação prática de NLP?,Chatbots,Classificação de imagens,Jogos,Robótica,A

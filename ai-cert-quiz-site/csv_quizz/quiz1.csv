@@ -1,0 +1,30 @@
+question,optionA,optionB,optionC,optionD,answer
+O que significa IA?,Inteligência Artificial,Internet Avançada,Interface Avançada,Interação Algorítmica,A
+Qual é o principal objetivo da IA?,Automatizar tarefas humanas,Reproduzir o comportamento humano,Substituir humanos,Criar jogos,A
+Qual técnica é usada para reconhecimento de voz?,Redes Neurais Convolucionais,Aprendizado por Reforço,Visão Computacional,Processamento de Linguagem Natural,D
+Qual modelo é conhecido por aprendizado profundo?,Random Forest,SVM,Redes Neurais Profundas,K-Means,C
+O que é aprendizado supervisionado?,Aprender com dados rotulados,Aprender com dados não rotulados,Aprender sem dados,Aprender com recompensas,A
+O que é overfitting?,Modelo generaliza bem,Modelo decorre ruído no treino,Modelo subestima dados,Modelo com alta acurácia,B
+Qual é um algoritmo clássico de aprendizado supervisionado?,K-Means,SVM,Aprendizado por Reforço,DBSCAN,B
+Qual linguagem é popular para IA?,JavaScript,Python,HTML,CSS,B
+O que é NLP?,Natural Language Processing,Natural Learning Process,New Language Protocol,Neural Language Processing,A
+Qual é uma aplicação de IA?,Jogos,Reconhecimento Facial,Carros autônomos,Todas as anteriores,D
+O que é uma rede neural?,Sistema inspirado no cérebro,Rede de computadores,Algoritmo genético,Hardware específico,A
+Qual técnica usa recompensas para aprendizado?,Aprendizado Supervisionado,Aprendizado Não Supervisionado,Aprendizado por Reforço,Aprendizado Semi-Supervisionado,C
+O que é um perceptron?,Uma unidade básica de rede neural,Um algoritmo de clustering,Um banco de dados,Um tipo de sensor,A
+Qual técnica é usada para reduzir dimensionalidade?,PCA,SVM,KNN,Naive Bayes,A
+O que é transferência de aprendizado?,Usar conhecimento de uma tarefa em outra,Reforçar aprendizado por recompensas,Processar linguagem natural,Treinar do zero,A
+Qual framework é popular para IA?,React,TensorFlow,Vue,Angular,B
+O que é backpropagation?,Algoritmo de treinamento de redes neurais,Algoritmo de clustering,Método de otimização,Método de validação,A
+Qual problema a IA tenta resolver?,Automatizar,Imitar,Simular,Resolver problemas complexos,D
+Qual é um tipo de aprendizado não supervisionado?,K-Means,Random Forest,SVM,Decision Tree,A
+O que é bias em IA?,Erro sistemático,Dado incorreto,Predição correta,Modelo simples,A
+Qual é a função da ativação em redes neurais?,Introduzir não linearidade,Normalizar dados,Calcular erro,Reduzir dimensionalidade,A
+Qual é o nome do conjunto de dados padrão para visão computacional?,ImageNet,MNIST,COCO,CIFAR,A
+Qual técnica ajuda a evitar overfitting?,Regularização,Redução de dados,Normalização,Randomização,A
+Qual é o papel do dataset de teste?,Treinar modelo,Validar modelo,Ajustar hiperparâmetros,Avaliar desempenho,D
+Qual é um método de otimização popular?,Gradiente Descendente,Random Forest,K-Means,SVM,A
+O que significa NLP em IA?,Processamento de linguagem natural,Novos protocolos linguísticos,Navegação por linguagem,Normalização de linguagem,A
+Qual é uma aplicação de visão computacional?,Reconhecimento de objetos,Análise de sentimentos,Previsão de séries temporais,Classificação de texto,A
+Qual algoritmo é usado para classificação?,Decision Tree,K-Means,Aprendizado por Reforço,PCA,A
+O que é um hiperparâmetro?,Parâmetro ajustado antes do treino,Parâmetro aprendido durante treino,Resultado da predição,Função de custo,A

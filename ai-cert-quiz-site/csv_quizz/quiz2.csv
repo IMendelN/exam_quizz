@@ -1,0 +1,31 @@
+question,optionA,optionB,optionC,optionD,answer
+O que é aprendizado não supervisionado?,Aprender com dados rotulados,Aprender com dados não rotulados,Aprender com recompensas,Aprender por tentativa e erro,B
+Qual é o uso de clustering?,Agrupar dados similares,Classificar dados,Reduzir dimensionalidade,Predizer valores,A
+O que é um vetor de características?,Representação numérica dos dados,Uma imagem,Um texto,Um modelo,A
+Qual é um exemplo de algoritmo de clustering?,K-Means,SVM,Random Forest,Decision Tree,A
+O que significa “deep learning”?,Aprendizado profundo,Aprendizado superficial,Aprendizado rápido,Aprendizado lento,A
+Qual framework é do Google para IA?,PyTorch,TensorFlow,Scikit-learn,Keras,B
+Qual técnica é usada para evitar o vanishing gradient?,ReLU,Tanh,Sigmoid,Softmax,A
+Qual é o papel do conjunto de validação?,Treinar modelo,Ajustar hiperparâmetros,Testar modelo,Visualizar dados,B
+O que é um autoencoder?,Rede neural para compressão,Modelo supervisionado,Algoritmo de reforço,Banco de dados,A
+Qual é um modelo generativo?,GAN,VAE,K-Means,Decision Tree,A
+O que significa GAN?,Redes Adversariais Generativas,Redes Avançadas Neurais,General Artificial Networks,Generalized Adversarial Networks,A
+O que é transferência de estilo?,Aplicar estilo artístico a imagens,Transferir dados,Transferir modelo,Transferir aprendizado,A
+Qual é a função da camada de pooling?,Reduzir dimensionalidade,Normalizar dados,Aumentar dados,Separar classes,A
+O que é regularização?,Método para evitar overfitting,Treinar mais rápido,Ajustar parâmetros,Calcular erro,A
+O que é dropout?,Desligar aleatoriamente neurônios para regularização,Aumentar dados,Normalizar entrada,Função de ativação,A
+Qual é o objetivo do reinforcement learning?,Aprender por recompensas,Aprender supervisionado,Aprender não supervisionado,Aprender por exemplo,A
+Qual é a diferença entre AI e Machine Learning?,AI é geral, ML é subset de AI,ML é geral, AI é subset de ML,AI e ML são iguais,Nenhuma das anteriores,A
+Qual é uma biblioteca popular para ML em Python?,NumPy,Pandas,Scikit-learn,Matplotlib,C
+Qual é uma tarefa comum de NLP?,Análise de sentimentos,Classificação de imagens,Reconhecimento facial,Previsão do tempo,A
+O que é embedding?,Representação vetorial de palavras,Modelo de rede neural,Função de ativação,Algoritmo de clustering,A
+Qual é o nome do processo de ajustar pesos na rede neural?,Treinamento,Validação,Teste,Predição,A
+Qual função é usada para classificação multiclasse?,Softmax,Sigmoid,ReLU,Tanh,A
+O que é a camada de convolução?,Camada que extrai características da imagem,Camada de ativação,Camada de pooling,Camada de saída,A
+Qual é a técnica usada para segmentação de imagem?,U-Net,ResNet,VGG,K-Means,A
+O que é fine-tuning?,Ajustar um modelo pré-treinado para nova tarefa,Treinar do zero,Validar modelo,Testar modelo,A
+Qual é a métrica comum para classificação?,Acurácia,Erro quadrático médio,Recall,MSE,A
+Qual é o objetivo do batch normalization?,Normalizar dados dentro do batch,Aumentar batch,Reduzir batch,Separar classes,A
+Qual é uma técnica para geração de texto?,Modelos baseados em Transformer,Rede convolucional,K-Means,Random Forest,A
+O que é LSTM?,Tipo de rede neural para dados sequenciais,Algoritmo de clustering,Função de ativação,Modelo de otimização,A
+O que é atenção (attention) em IA?,Mecanismo que foca em partes importantes dos dados,Método de otimização,Modelo supervisionado,Técnica de regularização,A

@@ -1,0 +1,30 @@
+question,optionA,optionB,optionC,optionD,answer
+O que é visão computacional?,Capacidade de entender imagens,Capacidade de entender texto,Capacidade de entender fala,Capacidade de entender áudio,A
+Qual é uma técnica comum em visão computacional?,Redes Convolucionais,Redes Recorrentes,Random Forest,Decision Tree,A
+O que é uma CNN?,Rede Neural Convolucional,Rede Neural Recorrente,Algoritmo de clustering,Função de ativação,A
+Qual é o papel da camada convolucional?,Extrair características da imagem,Classificar imagem,Normalizar dados,Aumentar dados,A
+O que é pooling?,Redução da dimensionalidade,Normalização,Aumento de dados,Classificação,A
+Qual é um dataset comum para visão?,ImageNet,MNIST,GLUE,CIFAR,A
+Qual é a função da camada totalmente conectada?,Classificar imagens,Extrair características,Reduzir dimensionalidade,Aumentar dados,A
+O que é data augmentation?,Aumentar dados de treino,Reduzir dados,Normalizar dados,Classificar dados,A
+Qual é um problema comum em visão?,Overfitting,Underfitting,Nenhum,Todos,A
+Qual é o que é transfer learning?,Usar modelo pré-treinado para nova tarefa,Treinar do zero,Validar modelo,Testar modelo,A
+Qual é o uso de segmentação de imagem?,Separar objetos em imagem,Classificar imagens,Reduzir dados,Aumentar dados,A
+Qual é o que é YOLO?,Modelo para detecção em tempo real,Algoritmo de clustering,Função de ativação,Modelo de regressão,A
+Qual é a diferença entre detecção e classificação?,Detecção localiza objetos, classificação identifica categorias,Ambos iguais,Classificação é mais rápida,Nenhuma,A
+Qual é o papel da função ReLU?,Introduzir não linearidade,Normalizar dados,Classificar imagens,Reduzir dimensionalidade,A
+Qual é um framework popular para visão?,OpenCV,TensorFlow,Keras,Scikit-learn,A
+Qual é o que é máscara em segmentação?,Região da imagem segmentada,Modelo neural,Função de ativação,Algoritmo,A
+Qual é a diferença entre imagem RGB e grayscale?,RGB tem 3 canais, grayscale 1 canal,Ambos 1 canal,Ambos 3 canais,Nenhuma,A
+O que é data labeling?,Rotular dados para treino,Classificar imagens,Segmentar imagens,Normalizar dados,A
+Qual é a tarefa da rede neural?,Aprender padrões nos dados,Classificar imagens,Gerar imagens,Todas as anteriores,D
+O que é GAN?,Rede adversarial generativa,Rede neural convolucional,Algoritmo de clustering,Função,A
+Qual é o papel do discriminador em GAN?,Distinguir real de falso,Gerar imagens,Classificar dados,Normalizar dados,A
+O que é o gerador em GAN?,Criar imagens falsas,Distinguir real de falso,Classificar dados,Normalizar,A
+Qual é a diferença entre supervised e unsupervised learning?,Supervised usa dados rotulados, unsupervised não,Ambos usam dados rotulados,Nenhuma,Nenhuma,A
+Qual é um exemplo de tarefa em visão computacional?,Detecção de objetos,Previsão de séries temporais,Classificação de texto,Análise de sentimentos,A
+Qual é o que é YOLO?,You Only Look Once,You Only Learn Once,You Often Look Once,You Only Look Once Slowly,A
+O que é anchor box?,Caixa usada para detectar objetos em imagens,Caixa de texto,Caixa de som,Caixa de rede,A
+Qual é o papel da normalização?,Colocar dados em mesma escala,Aumentar dados,Reduzir dados,Classificar,A
+Qual é a função do batch normalization?,Normalizar ativações dentro de um batch,Aumentar batch,Reduzir batch,Separar classes,A
+Qual é a diferença entre detecção e segmentação?,Detecção localiza objetos, segmentação separa pixels,Ambos iguais,Classificação é mais rápida,Nenhuma,A

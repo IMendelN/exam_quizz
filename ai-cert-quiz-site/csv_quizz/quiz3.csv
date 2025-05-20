@@ -1,0 +1,30 @@
+question,optionA,optionB,optionC,optionD,answer
+O que é aprendizado semi-supervisionado?,Aprender com poucos dados rotulados,Aprender sem dados,Aprender com recompensas,Aprender supervisionado,A
+Qual é uma técnica comum para redução de dimensionalidade?,PCA,t-SNE,K-Means,Random Forest,A
+O que é reinforcement learning?,Aprendizado por recompensas,Aprendizado supervisionado,Aprendizado não supervisionado,Aprendizado profundo,A
+Qual é o objetivo do gradiente descendente?,Minimizar a função de custo,Maximizar a função de custo,Normalizar dados,Classificar dados,A
+Qual é o uso de uma função de ativação?,Introduzir não linearidade,Reduzir dimensionalidade,Normalizar dados,Clusterizar,A
+Qual é o objetivo da função softmax?,Converter valores em probabilidades,Normalizar dados,Reforçar aprendizado,Classificar dados,A
+O que é overfitting?,Modelo que se ajusta muito ao treino,Modelo que não aprende,Modelo com boa generalização,Modelo simples,A
+Qual é a técnica para evitar overfitting chamada dropout?,Desligar neurônios aleatoriamente,Aumentar dados,Normalizar entradas,Função de ativação,A
+O que é uma rede neural recorrente?,Rede que processa dados sequenciais,Rede para imagens,Rede para classificação,Rede para regressão,A
+Qual é o papel do conjunto de teste?,Avaliar desempenho do modelo,Ajustar parâmetros,Treinar modelo,Validar modelo,A
+Qual é um exemplo de framework para deep learning?,TensorFlow,React,Vue,Angular,A
+O que é transfer learning?,Usar modelo pré-treinado para nova tarefa,Ajustar hiperparâmetros,Treinar do zero,Validar modelo,A
+Qual é o objetivo da normalização?,Colocar dados em escala comum,Reduzir dados,Aumentar dados,Dividir dados,A
+Qual é o papel do batch size?,Quantidade de amostras por atualização de peso,Tamanho do dataset,Tamanho da camada,Aumentar dados,A
+O que é uma função de perda?,Medir erro entre predição e verdade,Ajustar pesos,Normalizar dados,Ativar neurônios,A
+Qual é o nome da técnica que otimiza pesos?,Backpropagation,Pooling,Convolução,Ativação,A
+Qual é a camada típica em CNN?,Camada de convolução,Camada de pooling,Camada totalmente conectada,Todas as anteriores,D
+Qual é o papel da camada de pooling?,Reduzir resolução da imagem,Normalizar dados,Aumentar dados,Classificar imagens,A
+Qual é o que significa RNN?,Rede Neural Recorrente,Redes de Normalização Neural,Rede Neural Rápida,Rede Neural Regressiva,A
+Qual é uma aplicação comum de IA?,Reconhecimento de fala,Classificação de imagens,Jogos,Todas as anteriores,D
+O que é fine-tuning?,Ajustar modelo pré-treinado para nova tarefa,Treinar do zero,Validar modelo,Testar modelo,A
+Qual é a função da regularização?,Evitar overfitting,Aumentar dados,Normalizar entradas,Reduzir dados,A
+O que é um embedding?,Representação vetorial de dados,Função de ativação,Algoritmo de clustering,Modelo supervisionado,A
+Qual é o papel da camada totalmente conectada?,Combinar características extraídas,Normalizar dados,Aumentar dados,Ativar neurônios,A
+Qual é o que é um Transformer?,Modelo baseado em atenção para sequências,Modelo de clustering,Rede convolucional,Modelo de regressão,A
+O que é um token em NLP?,Unidade básica de texto,Modelo neural,Função de ativação,Algoritmo de clustering,A
+Qual é o objetivo do mecanismo de atenção?,Focar em partes importantes dos dados,Normalizar dados,Aumentar dados,Dividir dados,A
+Qual é uma métrica comum para regressão?,MSE,Accuracy,Recall,F1,A
+Qual é a diferença entre classificação e regressão?,Classificação é categórica, regressão é contínua,Ambas são categóricas,Ambas são contínuas,Nenhuma,A

@@ -1,0 +1,8 @@
+<!-- public/quiz-icon.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="12" fill="#2563eb"/>
+  <path d="M20 20h24v4H20v-4zm0 8h16v4H20v-4zm0 8h24v4H20v-4zm0 8h12v4H20v-4z" fill="#fff"/>
+  <circle cx="48" cy="24" r="4" fill="#facc15"/>
+  <circle cx="48" cy="32" r="4" fill="#16a34a"/>
+  <circle cx="48" cy="40" r="4" fill="#dc2626"/>
+</svg>
