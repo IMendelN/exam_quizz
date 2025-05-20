@@ -240,13 +240,21 @@ export default function QuizApp() {
             {questions.filter((q, i) => q.answer === selectedAnswers[i]).length}{" "}
             / {questions.length}
           </h3>
-          <Button
-            onClick={handleRetry}
-            className="button"
-            style={{ marginTop: 16 }}
-          >
-            Tentar Novamente
-          </Button>
+          <div className="buttons" style={{ marginTop: 16 }}>
+            <Button
+              onClick={handleRetry}
+              className="button"
+              style={{ marginRight: 8 }}
+            >
+              Tentar Novamente
+            </Button>
+            <Button
+              onClick={reshuffleAndRetake}
+              className="button button-outline"
+            >
+              Refazer com Nova Ordem
+            </Button>
+          </div>
         </motion.div>
       )}
 
