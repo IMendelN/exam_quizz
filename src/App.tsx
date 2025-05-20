@@ -101,6 +101,15 @@ export default function QuizApp() {
     }
   };
 
+  const downloadExampleCSV = () => {
+    const link = document.createElement("a");
+    link.href = "/public/exemplo-quiz.csv";
+    link.download = "exemplo-quiz.csv";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="container">
       <div className="header">
@@ -116,6 +125,7 @@ export default function QuizApp() {
         >
           Upload Question CSV File
         </label>
+
         {/* input file escondido */}
         <input
           id="file-upload"
@@ -124,14 +134,25 @@ export default function QuizApp() {
           onChange={handleFileUpload}
           style={{ display: "none" }} // escondido
         />
+
         {/* botão que dispara o clique do input file */}
-        <Button
-          className="upload-button"
-          variant="outline"
-          onClick={() => document.getElementById("file-upload")?.click()}
-        >
-          Selecionar arquivo CSV
-        </Button>
+        <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
+          <Button
+            className="upload-button"
+            variant="outline"
+            onClick={() => document.getElementById("file-upload")?.click()}
+          >
+            Selecionar arquivo CSV
+          </Button>
+
+          <Button
+            className="download-example-button"
+            variant="ghost"
+            onClick={downloadExampleCSV}
+          >
+            Baixar Exemplo CSV
+          </Button>
+        </div>
       </div>
 
       {questions.length > 0 && !submitted && (

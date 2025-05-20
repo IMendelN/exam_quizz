@@ -1,0 +1,4 @@
+question,optionA,optionB,optionC,optionD,answer
+Qual linguagem é amplamente usada para desenvolvimento web?,Python,C++,HTML,Java,C
+Qual biblioteca é usada para criar interfaces em React?,Bootstrap,TensorFlow,PyTorch,Shadcn,A
+O que o TypeScript adiciona ao JavaScript?,Estilo visual,Compilação de HTML,Tipos estáticos,Execução no backend,C
