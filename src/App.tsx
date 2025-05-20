@@ -33,9 +33,9 @@ export default function QuizApp() {
   const [history, setHistory] = useState<Attempt[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const handleOptionChange = (value: string) => {
+  const handleOptionChange = (letter: string) => {
     const updatedAnswers = [...selectedAnswers];
-    updatedAnswers[currentIndex] = value;
+    updatedAnswers[currentIndex] = letter;
     setSelectedAnswers(updatedAnswers);
   };
 
@@ -60,11 +60,12 @@ export default function QuizApp() {
   };
 
   const handleSubmit = () => {
-    const correctAnswers = questions.map((q) => q.answer);
-    const score = correctAnswers.reduce(
-      (acc, ans, i) => (ans === selectedAnswers[i] ? acc + 1 : acc),
-      0
-    );
+    const score = questions.reduce((acc, question, i) => {
+      const correct = question.answer.trim().toUpperCase();
+      const selected = (selectedAnswers[i] || "").trim().toUpperCase();
+      return correct === selected ? acc + 1 : acc;
+    }, 0);
+
     setSubmitted(true);
     setHistory([...history, { questions, answers: selectedAnswers, score }]);
   };
@@ -134,7 +135,9 @@ export default function QuizApp() {
 
             <div className="options">
               {questions[currentIndex].options.map((opt, optIndex) => {
-                const selected = selectedAnswers[currentIndex] === opt;
+                const letter = String.fromCharCode(65 + optIndex); // A, B, C, D
+                const selected = selectedAnswers[currentIndex] === letter;
+
                 return (
                   <label
                     key={optIndex}
@@ -145,17 +148,18 @@ export default function QuizApp() {
                     <input
                       type="radio"
                       name={`question-${currentIndex}`}
-                      value={opt}
+                      value={letter}
                       checked={selected}
-                      onChange={() => handleOptionChange(opt)}
+                      onChange={() => handleOptionChange(letter)}
                       disabled={submitted}
                     />
-                    <span className="option-text">{opt}</span>
+                    <span className="option-text">
+                      {letter}. {opt}
+                    </span>
                   </label>
                 );
               })}
             </div>
-
             {submitted && (
               <p
                 className={
@@ -165,7 +169,12 @@ export default function QuizApp() {
                     : "feedback-wrong"
                 }
               >
-                Correct answer: {questions[currentIndex].answer}
+                Resposta correta: {questions[currentIndex].answer}.{" "}
+                {
+                  questions[currentIndex].options[
+                    questions[currentIndex].answer.charCodeAt(0) - 65
+                  ]
+                }
               </p>
             )}
 
