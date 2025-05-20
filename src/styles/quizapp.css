@@ -311,3 +311,71 @@ body {
   color: #16a34a;
   font-weight: 600;
 }
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .container {
+    padding: 16px;
+    gap: 24px;
+  }
+
+  .title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .upload-section {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .upload-section > div {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .question-text {
+    font-size: 1.1rem;
+  }
+
+  .option-text {
+    font-size: 0.95rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .button,
+  .button-outline {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .score-box {
+    font-size: 1.5rem;
+    padding: 20px;
+  }
+
+  .history-title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .history-card {
+    padding: 16px;
+  }
+}
+
