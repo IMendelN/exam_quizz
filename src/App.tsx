@@ -123,7 +123,7 @@ export default function QuizApp() {
         </Button>
       </div>
 
-      {questions.length > 0 && (
+      {questions.length > 0 && !submitted && (
         <Card className="card">
           <CardContent>
             <p className="question-count">
