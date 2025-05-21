@@ -255,7 +255,7 @@ export default function QuizApp() {
           className="score-box"
         >
           <h3>
-            Score:{" "}
+            Pontuação:{" "}
             {questions.filter((q, i) => q.answer === selectedAnswers[i]).length}{" "}
             / {questions.length}
           </h3>
@@ -284,7 +284,7 @@ export default function QuizApp() {
             <Card key={idx} className="history-card">
               <CardContent>
                 <h4>
-                  Tentativa {idx + 1} - Score: {attempt.score} /{" "}
+                  Tentativa {idx + 1} - Pontuação: {attempt.score} /{" "}
                   {attempt.questions.length}
                 </h4>
                 {attempt.questions.map((q, qIdx) => (
