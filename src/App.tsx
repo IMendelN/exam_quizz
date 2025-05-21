@@ -301,9 +301,19 @@ export default function QuizApp() {
                       {qIdx + 1}. {q.question}
                     </p>
                     <p className="history-answer">
-                      Sua resposta: {attempt.answers[qIdx]}
+                      Sua resposta:{" "}
+                      {attempt.answers[qIdx]
+                        ? `${attempt.answers[qIdx]} - ${
+                            q.options[
+                              attempt.answers[qIdx].charCodeAt(0) - 65
+                            ] || "Inválida"
+                          }`
+                        : "Não respondida"}
                     </p>
-                    <p className="history-correct">Correta: {q.answer}</p>
+                    <p className="history-correct">
+                      Correta: {q.answer} -{" "}
+                      {q.options[q.answer.charCodeAt(0) - 65]}
+                    </p>
                   </div>
                 ))}
               </CardContent>
