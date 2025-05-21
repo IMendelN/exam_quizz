@@ -11,7 +11,7 @@ Qual é um problema comum em visão?,Overfitting,Underfitting,Nenhum,Todos,A
 Qual é o que é transfer learning?,Usar modelo pré-treinado para nova tarefa,Treinar do zero,Validar modelo,Testar modelo,A
 Qual é o uso de segmentação de imagem?,Separar objetos em imagem,Classificar imagens,Reduzir dados,Aumentar dados,A
 Qual é o que é YOLO?,Modelo para detecção em tempo real,Algoritmo de clustering,Função de ativação,Modelo de regressão,A
-Qual é a diferença entre detecção e classificação?,Detecção localiza objetos, classificação identifica categorias,Ambos iguais,Classificação é mais rápida,Nenhuma,A
+Qual é a diferença entre detecção e classificação?,Detecção localiza objetos, classificação identifica categorias,Ambos iguais,Classificação é mais rápida,A
 Qual é o papel da função ReLU?,Introduzir não linearidade,Normalizar dados,Classificar imagens,Reduzir dimensionalidade,A
 Qual é um framework popular para visão?,OpenCV,TensorFlow,Keras,Scikit-learn,A
 Qual é o que é máscara em segmentação?,Região da imagem segmentada,Modelo neural,Função de ativação,Algoritmo,A

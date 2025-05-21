@@ -10,7 +10,7 @@ Qual é uma técnica para geração de texto?,Modelos baseados em Transformer,Re
 O que é POS tagging?,Classificação gramatical de palavras,Reconhecimento de fala,Segmentação de texto,Tradução automática,A
 Qual é o papel do corpus?,Base de dados textual,Modelo neural,Função de ativação,Algoritmo de clustering,A
 O que é embeddings?,Representação vetorial de palavras,Modelo supervisionado,Função de ativação,Algoritmo de clustering,A
-Qual é a diferença entre NLP e NLU?,NLU é entendimento, NLP é processamento,NLP é entendimento, NLU é processamento,Ambos são iguais,Nenhuma,A
+Qual é a diferença entre NLP e NLU?,NLU é entendimento, NLP é processamento,NLP é entendimento, NLU é processamento,Ambos são iguais,A
 O que é uma rede neural recorrente?,Rede para dados sequenciais,Rede para imagens,Rede para classificação,Rede para regressão,A
 Qual é a tarefa do named entity recognition?,Identificar entidades nomeadas,Traduzir texto,Classificar sentimentos,Gerar texto,A
 O que é transformer?,Arquitetura baseada em atenção,Rede convolucional,Algoritmo de clustering,Função de ativação,A

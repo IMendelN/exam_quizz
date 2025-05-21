@@ -15,7 +15,7 @@ Qual é a função da camada de pooling?,Reduzir dimensionalidade,Normalizar dad
 O que é regularização?,Método para evitar overfitting,Treinar mais rápido,Ajustar parâmetros,Calcular erro,A
 O que é dropout?,Desligar aleatoriamente neurônios para regularização,Aumentar dados,Normalizar entrada,Função de ativação,A
 Qual é o objetivo do reinforcement learning?,Aprender por recompensas,Aprender supervisionado,Aprender não supervisionado,Aprender por exemplo,A
-Qual é a diferença entre AI e Machine Learning?,AI é geral, ML é subset de AI,ML é geral, AI é subset de ML,AI e ML são iguais,Nenhuma das anteriores,A
+Qual é a diferença entre AI e Machine Learning?,AI é geral, ML é subset de AI,ML é geral, AI é subset de ML,A
 Qual é uma biblioteca popular para ML em Python?,NumPy,Pandas,Scikit-learn,Matplotlib,C
 Qual é uma tarefa comum de NLP?,Análise de sentimentos,Classificação de imagens,Reconhecimento facial,Previsão do tempo,A
 O que é embedding?,Representação vetorial de palavras,Modelo de rede neural,Função de ativação,Algoritmo de clustering,A
